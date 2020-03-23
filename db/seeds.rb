@@ -8,8 +8,9 @@
 Activity.destroy_all
 Alphabet.destroy_all
 
-Activity.create(name: "Alphabets", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584941259/Alphabet/u1ldkhwhso0nah0z7st4.png")
-Activity.create(name: "Numbers", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584941616/Numbers/emyihegyponixed6e9ic.png")
+Activity.create(name: "Alphabets", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584988886/Alphabet/yaslzus4tpdfnygbspue.png")
+Activity.create(name: "Numbers", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584988855/Numbers/tp1pqq1fubaamw9uxtnb.png")
+Activit.create(name: "Colors", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584988947/Colors/vc1kupoai7dvgpw0ki2q.png")
 
 #alphabets
 Alphabet.create(letter: "A", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584931514/Alphabet/ragzisnpedvd6es4ryn3.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1584931527/Alphabet/yzxjt1ezl6szv9fn4dtt.mp3", activity_id: 1)
@@ -50,3 +51,15 @@ Alphabet.create(letter: "6", img: "https://res.cloudinary.com/ddmxdfzlm/image/up
 Alphabet.create(letter: "7", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584942787/Numbers/cs3xc8ahfqg1pip0fnoz.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1584942816/Numbers/hhcjunqddeiqd8isdbgx.mp3", activity_id: 2)
 Alphabet.create(letter: "8", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584942832/Numbers/xrceksfjbgk5thtdmn04.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1584942847/Numbers/oeh8dzvaas4m4bqxcnkz.mp3", activity_id: 2)
 Alphabet.create(letter: "9", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584942899/Numbers/pmnl0bmsjq0eta78fexq.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1584942912/Numbers/hj2lsoug4i11jteui0js.mp3", activity_id: 2)
+
+#colors
+Alphabet.create(letter: "Red", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585000850/Colors/gbzt8ufbx3rhrclxt2ye.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585000866/Colors/qkkiryba3k2qiolzu050.mp3", activity_id: 3)
+Alphabet.create(letter: "Orange", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585000885/Colors/wqnksnlhsiqfekotouwf.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585000899/Colors/uublgkudnfat6t1ijdxr.mp3", activity_id: 3)
+Alphabet.create(letter: "Yellow", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585000917/Colors/prugmgjsvebfdanfanup.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585000933/Colors/ucbokduvxt6plhtkprxq.mp3", activity_id: 3)
+Alphabet.create(letter: "Green", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585000949/Colors/haauatoszpjqpupwmohi.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585000966/Colors/subq5qfb3bbdl5w3onli.mp3", activity_id: 3)
+Alphabet.create(letter: "Blue", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585000993/Colors/mtzqouzqrtcwo34asjbl.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001015/Colors/qjfpxjh9acbzgpna727l.mp3", activity_id: 3)
+Alphabet.create(letter: "Purple", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585001037/Colors/tuv6qdkddzmfln03r9ku.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001055/Colors/ojhaecrr5mitplvzi1eh.mp3", activity_id: 3)
+Alphabet.create(letter: "Black", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585001075/Colors/eip5bfauhkacnqqrjojk.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001091/Colors/fqhezugz3m7cu7esubii.mp3", activity_id: 3)
+Alphabet.create(letter: "Grey", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585001108/Colors/qxrc1tjwm1vtxi3qvifg.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001125/Colors/ocutkzs1kquzn41khwvu.mp3", activity_id: 3)
+Alphabet.create(letter: "White", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585001141/Colors/amlru5cmvsagbvpcgwie.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001158/Colors/eg6rtfbsm4sadkaphh0a.mp3", activity_id: 3)
+Alphabet.create(letter: "Pink", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585001174/Colors/d1htqiegxevuwcpkuo9a.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001218/Colors/l0h22hxobj1a0hgcsd4x.mp3", activity_id: 3)
