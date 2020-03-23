@@ -10,7 +10,8 @@ Alphabet.destroy_all
 
 Activity.create(name: "Alphabets", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584988886/Alphabet/yaslzus4tpdfnygbspue.png")
 Activity.create(name: "Numbers", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584988855/Numbers/tp1pqq1fubaamw9uxtnb.png")
-Activit.create(name: "Colors", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584988947/Colors/vc1kupoai7dvgpw0ki2q.png")
+Activity.create(name: "Colors", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584988947/Colors/vc1kupoai7dvgpw0ki2q.png")
+Activity.create(name: "Shapes", image: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585003946/Shapes/mxn4j1xjjrnenhxlwrzb.png")
 
 #alphabets
 Alphabet.create(letter: "A", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1584931514/Alphabet/ragzisnpedvd6es4ryn3.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1584931527/Alphabet/yzxjt1ezl6szv9fn4dtt.mp3", activity_id: 1)
@@ -63,3 +64,14 @@ Alphabet.create(letter: "Black", img: "https://res.cloudinary.com/ddmxdfzlm/imag
 Alphabet.create(letter: "Grey", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585001108/Colors/qxrc1tjwm1vtxi3qvifg.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001125/Colors/ocutkzs1kquzn41khwvu.mp3", activity_id: 3)
 Alphabet.create(letter: "White", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585001141/Colors/amlru5cmvsagbvpcgwie.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001158/Colors/eg6rtfbsm4sadkaphh0a.mp3", activity_id: 3)
 Alphabet.create(letter: "Pink", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585001174/Colors/d1htqiegxevuwcpkuo9a.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585001218/Colors/l0h22hxobj1a0hgcsd4x.mp3", activity_id: 3)
+
+#shapes
+Alphabet.create(letter: "Circle", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004184/Shapes/ql1ul3lh25nlrh49f0rb.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004202/Shapes/drurjvbllm1wlzcfrszb.mp3", activity_id: 4)
+Alphabet.create(letter: "Square", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004218/Shapes/pbmqnvrtw647p8sq5y5q.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004238/Shapes/eibtq476e21q58jwcwst.mp3", activity_id: 4)
+Alphabet.create(letter: "Star", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004263/Shapes/i0ha31ivjkfqg56ftlss.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004277/Shapes/hhz6odzciuznfgwslcan.mp3", activity_id: 4)
+Alphabet.create(letter: "Pentagon", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004294/Shapes/iln9w0ixr0omvkpljnwe.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004329/Shapes/w2bbti4bjoyk7k7cnomw.mp3", activity_id: 4)
+Alphabet.create(letter: "Rectangle", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004407/Shapes/reiihpmgrttm97u83la4.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004430/Shapes/rvn8gaerogufbjjhvkvi.mp3", activity_id: 4)
+Alphabet.create(letter: "Oval", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004449/Shapes/bdjkdwqbpqdnqchjqjil.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004468/Shapes/m5ftxr7fnddca9gfowzh.mp3", activity_id: 4)
+Alphabet.create(letter: "Hexagon", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004494/Shapes/nzuxe1eqmkg1kkopvjbv.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004526/Shapes/nw8blwxvijjgke59af72.mp3", activity_id: 4)
+Alphabet.create(letter: "Triangle", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004552/Shapes/xnx6ghe2he4jdirudf4h.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004575/Shapes/mqkkib7vdbkghzdi2vsv.mp3", activity_id: 4)
+Alphabet.create(letter: "Octagon", img: "https://res.cloudinary.com/ddmxdfzlm/image/upload/v1585004597/Shapes/ocaid1wfn3cwtw7hyvsx.png", audio: "https://res.cloudinary.com/ddmxdfzlm/video/upload/v1585004618/Shapes/w2rap9hs2zwoc2awujct.mp3", activity_id: 4)
